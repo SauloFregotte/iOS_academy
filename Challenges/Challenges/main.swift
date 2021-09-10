@@ -54,9 +54,17 @@ print("Count how much words that starts with '\(startChar)':",
 
 let value1 = 10.0
 let value2 = 10.0
-let mathOperator = "*"
+let mathOperator = "%"
 
 //print(calculator(mathOperator: mathOperator, value1: value1, value2: value2))
 
 print("What is the result of '\(value1)' '\(mathOperator)' '\(value2)' =",
       calculator(mathOperator: mathOperator, value1: value1, value2: value2))
+
+//8th Challenge
+
+let matrix: [[Character]] = [["x"], ["x"], ["o"],
+                             ["o"], ["o"], ["x"],
+                             ["o"], ["x"], ["o"]]
+
+print("There is a winner?", verifyWinnerOfTheTip_Tap_Toe(matrix: matrix))
