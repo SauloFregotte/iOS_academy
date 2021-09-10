@@ -63,8 +63,8 @@ print("What is the result of '\(value1)' '\(mathOperator)' '\(value2)' =",
 
 //8th Challenge
 
-let matrix: [[Character]] = [["x"], ["x"], ["o"],
-                             ["o"], ["o"], ["x"],
-                             ["o"], ["x"], ["o"]]
+let matrix: [[Character]] = [["x", "x", "o"],
+                             ["o", "o", "x"],
+                             ["o", "x", "o"]]
 
-print("There is a winner?", verifyWinnerOfTheTip_Tap_Toe(matrix: matrix))
+print("Is there a winner?", verifyWinnerOfTheTip_Tap_ToeWithMatrix(matrix: matrix))
